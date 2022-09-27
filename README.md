@@ -3,8 +3,8 @@ Terminal-like theme with selectable color schemes.
 
 ![Screenshot](https://raw.githubusercontent.com/Yukuro/hugo-theme-shell/master/images/motion2.gif)
 
-## Demo site
-- https://hugo-theme-shell.netlify.app/
+## Quick Depoy
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Yukuro/hugo-theme-shell-example)  
 
 ## Features
 - Terminal-like portfolio
@@ -58,6 +58,14 @@ cd myportfolio
 git submodule add https://github.com/Yukuro/hugo-theme-shell.git themes/hugo-theme-shell
 hugo server -t hugo-theme-shell -w -D
 ```
+
+#### Note: How to use stable version
+After running `git submodule add`, do the following
+```bash
+cd themes/hugo-theme-shell
+git checkout TAG_FOR_STABLE_VERSION
+```
+`TAG_FOR_STABLE_VERSION` : The stable version tag can be found on the [release page of my repository](https://github.com/Yukuro/hugo-theme-shell/releases) (i.e. `v0.1.5`, `v0.1.4` ...etc).
 
 ### How to use theme
 hugo-theme-shell supports the [Mayccoll/Gogh](https://github.com/Mayccoll/Gogh) theme
